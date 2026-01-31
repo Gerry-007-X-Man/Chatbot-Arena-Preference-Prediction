@@ -2,6 +2,8 @@
 *.csv
 *.pth
 *.bin
+*.zip
+*.7z
 checkpoint-*/
 chatbot_arena_results/
 final_chatbot_model/
