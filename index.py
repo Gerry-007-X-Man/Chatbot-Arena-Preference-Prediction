@@ -42,7 +42,7 @@ def preprocess_function(examples, tokenizer):
 if __name__ == '__main__':
     # --- A. 数据加载与清洗 ---
     print("正在加载数据...")
-    train_path = 'D:/AllData/competitions/llm-classification-finetuning/llm-classification-finetuning/train.csv'
+    train_path = '你的文件目录/train.csv'
     train_df = pd.read_csv(train_path, low_memory=False)
 
     # 仅保留需要的列，彻底剔除 Unnamed 等幽灵列
