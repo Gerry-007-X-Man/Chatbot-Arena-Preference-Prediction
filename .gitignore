@@ -1,0 +1,9 @@
+# 过滤掉巨大的数据集和模型权重
+*.csv
+*.pth
+*.bin
+checkpoint-*/
+chatbot_arena_results/
+final_chatbot_model/
+__pycache__/
+.venv/
