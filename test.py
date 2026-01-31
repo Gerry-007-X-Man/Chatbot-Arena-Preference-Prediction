@@ -26,7 +26,7 @@ def preprocess_test_function(examples, tokenizer):
 if __name__ == '__main__':
     # 2. 加载测试数据
     print("正在加载测试集...")
-    test_path = 'D:/AllData/competitions/llm-classification-finetuning/llm-classification-finetuning/test.csv'
+    test_path = '你的文件目录/test.csv'
     test_df = pd.read_csv(test_path)
     
     # 记录 ID 用于最后提交
